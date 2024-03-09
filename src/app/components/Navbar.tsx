@@ -6,9 +6,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const Navbar = () => {
   const navigation = [
     { name: "Features", href: "#features" },
-    { name: "Get Started", href: "#" },
-    { name: "Pricing", href: "#" },
-    { name: "Newsletter", href: "#" },
+    { name: "Get Started", href: "/get-started" },
+    { name: "Pricing", href: "#pricing" },
+    { name: "Newsletter", href: "#newsletter" },
   ];
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href="#"
+              href="/getting-started"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Log in <span aria-hidden="true">&rarr;</span>
